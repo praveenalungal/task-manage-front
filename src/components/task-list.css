@@ -1,0 +1,21 @@
+.scrollbar-hidden::-webkit-scrollbar {
+    width: 8px;
+}
+
+.scrollbar-hidden::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.scrollbar-hidden::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px; 
+}
+
+.scrollbar-hidden {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(0, 0, 0, 0.5) transparent;
+}
+
+.scrollbar-hidden {
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
